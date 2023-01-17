@@ -11,7 +11,7 @@ int main ()
     printf("\nWie viele Kilometer sind Sie gefahren?\n");
     scanf("%f", &GefahreneKilometer);
   
-    printf("\n\nSie haben %f Kilometer verbraucht.\n\n", DV/100*GefahreneKilometer,);
+    printf("\n\nSie haben %f Kilometer verbraucht.\n\n", DV/100*GefahreneKilometer);
     
     return 0;
     
