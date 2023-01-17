@@ -8,10 +8,10 @@ int main ()
   
     printf("Was verbraucht ihr KFZ in 100km?\n");
     scanf("%f", &DV);
-    printf("Wie viele Kilometer sind Sie gefahren?");
+    printf("\nWie viele Kilometer sind Sie gefahren?\n");
     scanf("%f", &GefahreneKilometer);
   
-    printf("Sie haben %f Kilometer verbraucht.", DV/100*GefahreneKilometer);
+    printf("\n\nSie haben %f Kilometer verbraucht.\n\n", DV/100*GefahreneKilometer,);
     
     return 0;
     
