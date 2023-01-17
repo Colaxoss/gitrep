@@ -12,7 +12,7 @@ int main ()
     printf("Bitte geben Sie die zweite Zahl ein:\n");
     scanf("%le", &ZZ);
   
-    printf("Die Summe ergibt %.2le\n\n", zahl1 + zahl2);
+    printf("Die Summe ergibt %.2le\n\n", EZ + ZZ);
   
   
     return 0;
