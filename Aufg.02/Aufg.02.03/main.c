@@ -12,7 +12,7 @@ int main ()
     printf("Bitte geben Sie die zweite Zahl ein:\n");
     scanf("%le", &ZZ);
   
-    printf("Die Ergebnis lautet\n\n", EZ + ZZ);
+    printf("Das Ergebnis lautet %le\n\n", EZ + ZZ);
   
   
     return 0;
