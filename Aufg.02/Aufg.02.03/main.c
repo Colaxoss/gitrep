@@ -2,17 +2,17 @@
 
 int main ()
 {
-    double EZ, ZZ;
+    float EZ, ZZ;
   
   
     printf("\nWillkommen beim Taschenrechner zum Addieren!\n\n");
   
     printf("Bitte geben Sie die erste Zahl ein:\n");
-    scanf("%le", &EZ);
+    scanf("%f", &EZ);
     printf("Bitte geben Sie die zweite Zahl ein:\n");
-    scanf("%le", &ZZ);
+    scanf("%f", &ZZ);
   
-    printf("Das Ergebnis lautet %le\n\n", EZ + ZZ);
+    printf("Das Ergebnis lautet %f\n\n", EZ + ZZ);
   
   
     return 0;
