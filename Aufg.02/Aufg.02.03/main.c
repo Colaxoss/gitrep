@@ -8,9 +8,9 @@ int main ()
     printf("Willkommen beim Taschenrechner zum addieren!\n\n");
   
     printf("Bitte geben Sie die erste Zahl ein:\n");
-    scanf("%f", &EZ);
+    scanf("%d", &EZ);
     printf("Bitte geben Sie die zweite Zahl ein:\n");
-    scanf("%f", &ZZ);
+    scanf("%d", &ZZ);
   
     printf("Das Ergebnis lautet:", EZ+ZZ);
   
