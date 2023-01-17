@@ -9,7 +9,6 @@ int main ()
   
     printf("Bitte geben Sie die erste Zahl ein:\n");
     scanf("%d", &EZ);
-  
     printf("Bitte geben Sie die zweite Zahl ein:\n");
     scanf("%d", &ZZ);
   
