@@ -13,7 +13,7 @@ int main ()
     scanf("%f", &ZZ);
   
     printf("Das Ergebnis lautet: \n\n");
-    printf("%f", EZ + ZZ);
+    printf("%f\n\n", EZ + ZZ);
   
   
     return 0;
