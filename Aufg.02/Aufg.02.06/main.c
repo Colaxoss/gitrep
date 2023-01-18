@@ -10,7 +10,7 @@ int main()
     printf("Bitte geben Sie den Radius des Kreises ein:\n");
     scanf("%f", &r);
     
-    printf("Der Flächeninhalt beträgt: %f", PI*r*r);
+    printf("Der Flächeninhalt beträgt: %f\n\n", PI*r*r);
   
     return 0;
 }
