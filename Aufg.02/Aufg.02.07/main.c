@@ -4,7 +4,7 @@ int main()
 {
     float AT;
   
-    printf("\nWillkommen beim Tagesrechner!\n\n);
+    printf("\nWillkommen beim Tagesrechner!\n\n");
     
     printf("Bitte geben Sie die Anzahl der Tage an.\n");
     scanf("%f", &AT);
