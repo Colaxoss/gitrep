@@ -8,7 +8,8 @@ int main()
     
         printf("Bitte geben Sie die Anzahl der Sekunden an.\n");
         scanf("%d", &AS);
-    
+        
+        Tag = AS/60/60/24;
         printf("\n%d ", AS);
         printf(" Sekunden sind %d Tage\n\n", Tag);
         Tag -= AS*24*60*60;
