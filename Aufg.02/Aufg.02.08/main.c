@@ -10,11 +10,11 @@ int main()
         scanf("%d", &AS);
     
         Tag = ((AS/60)/60)/24;
-        Tag -= AS*24*60*60
+        Tag -= AS*24*60*60;
         Std = (AS/60)/60;
-        Std -= AS*60*60
+        Std -= AS*60*60;
         Min = AS/60;
-        Min -= AS*60
+        Min -= AS*60;
         Sek = Min*60;
     
         printf("\n%d ", AS);
