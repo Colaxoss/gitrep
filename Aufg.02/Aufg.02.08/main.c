@@ -2,37 +2,27 @@
 
 int main()
 {
-    int anzahlSekunden, anzahlTage, anzahlStunden ,anzahlMinuten;
+        int AS, Tag, Std, Min;
+  
+        printf("\nWillkommen beim Tagesrechner Reverse!\n\n");
+    
+        printf("Bitte geben Sie die Anzahl der Sekunden an.\n");
+        scanf("%d", &AS);
+        
+        Tag = ((AS / 60) / 60) / 24;
+        AS -= Tag * 24 * 60 * 60;
 
-    // Eingabe Anzahl Sekunden
+        Std = AS / 60 / 60;
+        AS -= Std * 60 * 60;
 
-        printf("Anzahl Sekunden: ");
-        scanf("%d", &anzahlSekunden);
-
-    // Tage berechnen
-
-        anzahlTage = ((anzahlSekunden / 60) / 60) / 24;
-
-        anzahlSekunden -= anzahlTage * 24 * 60 * 60;
-
-    // Stunden berechnen
-
-        anzahlStunden = anzahlSekunden / 60 / 60;
-
-        anzahlSekunden -= anzahlStunden * 60 * 60;
-
-    // Minuten berechnen
-
-        anzahlMinuten = anzahlSekunden / 60;
-
-        anzahlSekunden -= anzahlMinuten * 60;   
-
-    // Ausgabe
-
-        printf("Tage    : %d\n", anzahlTage);
-        printf("Stunden : %d\n", anzahlStunden);
-        printf("Minuten : %d\n", anzahlMinuten);
-        printf("Sekunden: %d\n", anzahlSekunden);
-
-    return 0;
+        Min = AS / 60;
+        AS -= Min * 60; 
+    
+        printf("\n%d ", AS);
+        printf(" Sekunden sind %d Tage\n\n", Tag);
+        printf("Es bleiben %d Stunden\n\n", Std);
+        printf("Es bleiben %d Minuten\n\n", Min);
+        printf("Es bleiben %d Sekunden\n\n", AS);
+           
+        return 0; 
 }
