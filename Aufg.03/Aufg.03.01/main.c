@@ -15,7 +15,7 @@ int main ()
         scanf("%d", &EW);
     
         if(EW==1){
-            printf("Sie haben die Cola gewählt. Guten Durst!") 
+            printf("Sie haben die Cola gewählt. Guten Durst!");
         }
         else if(EW==2){
             printf("Sie haben die Fanta gewählt. Guten Durst!");
