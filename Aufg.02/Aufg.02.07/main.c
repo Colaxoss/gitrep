@@ -11,7 +11,10 @@ int main()
            
     printf("\n%d ", AT);
     printf("Tage haben %d Stunden\n\n", AT*24);
+    printf("\n%d ", AT);
+    printf("Tage haben %d Minuten\n\n", AT*24*60);
+    printf("\n%d ", AT);
+    printf("Tage haben %d Sekunden\n\n", AT*24*60*60);
            
-    
     return 0; 
 }
