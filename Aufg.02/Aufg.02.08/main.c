@@ -4,6 +4,7 @@ int main()
 {
     int AS;
     int cache;
+    int Sek;
   
     printf("\nWillkommen beim Tagesrechner Reverse!\n\n");
     
@@ -15,7 +16,8 @@ int main()
     printf(" Sekunden sind %d Tage\n\n", cache);
     printf("Es bleiben %d Stunden\n\n", AS/60 % 60);
     printf("Es bleiben %d Minuten\n\n", AS % 60);
-    //printf("Es bleiben %d Sekunden\n\n", );
+    Sek = AS-(cache*24*60*60);
+    printf("Es bleiben %d Sekunden\n\n", Sek);
            
     return 0; 
 }
