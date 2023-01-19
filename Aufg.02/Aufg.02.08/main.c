@@ -16,7 +16,7 @@ int main()
     printf("Es bleiben %d Stunden\n\n", Std);
     Min = AS % 60;
     printf("Es bleiben %d Minuten\n\n", Min);
-    Sek = Min/60;
+    Sek = Min*60;
     printf("Es bleiben %d Sekunden\n\n", Sek);
            
     return 0; 
