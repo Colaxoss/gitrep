@@ -13,7 +13,7 @@ int main()
     printf("\n%d ", AS);
     cache = AS/60/60/24;
     printf(" Sekunden sind %d Tage\n\n", cache);
-    rintf("Es bleiben %d Stunden\n\n", AS/60 % 60);
+    printf("Es bleiben %d Stunden\n\n", AS/60 % 60);
     printf("Es bleiben %d Minuten\n\n", AS % 60);
     //printf("Es bleiben %d Sekunden\n\n", );
            
