@@ -4,9 +4,9 @@ int main()
 {
     int AS;
   
-    printf("\nWillkommen beim Tagesrechner!\n\n");
+    printf("\nWillkommen beim Tagesrechner Reverse!\n\n");
     
-    printf("Bitte geben Sie die Anzahl der Tage an.\n");
+    printf("Bitte geben Sie die Anzahl der Sekunden an.\n");
     scanf("%d", &AS);
            
     printf("\n%d ", AS);
