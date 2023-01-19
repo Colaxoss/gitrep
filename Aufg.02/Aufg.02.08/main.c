@@ -9,10 +9,10 @@ int main()
         printf("Bitte geben Sie die Anzahl der Sekunden an.\n");
         scanf("%d", &AS);
     
-        Sek = Min*60;
-        Min = AS % 60;
+        Tag = ((AS/60)/60)/24;
         Std = (AS/60) % 60;
-        Tag = AS/60/60/24;
+        Min = AS % 60;
+        Sek = Min*60;
     
         printf("\n%d ", AS);
         printf(" Sekunden sind %d Tage\n\n", Tag);
