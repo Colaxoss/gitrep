@@ -4,7 +4,7 @@ int main ()
 {
     int EW, Z;
   
-    printf("\nWillkommen beim Getränkeautomat\n\n");
+    printf("\nWillkommen beim Getränkeautomat!\n\n");
     
     printf("Bitte werfen Sie mit 1 einen Euro ein.\n\n");
     scanf("%d", &Z);
