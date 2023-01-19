@@ -10,11 +10,11 @@ int main()
     scanf("%d", &AS);
            
     printf("\n%d ", AS);
-    Tag = (AS/60/60/24) % 1;
+    Tag = (AS/60/60/24) % 0;
     printf(" Sekunden sind %d Tage\n\n", Tag);
-    Std = (AS/60/60) % 1;
+    Std = (AS/60/60) % 0;
     printf("Es bleiben %d Stunden\n\n", Std);
-    Min = (AS/60) % 1;
+    Min = (AS/60) % 0;
     printf("Es bleiben %d Minuten\n\n", Min);
     Sek = Min*60;
     printf("Es bleiben %d Sekunden\n\n", Sek);
