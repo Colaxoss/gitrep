@@ -11,23 +11,26 @@ int main ()
     
     if(Z==1){
         printf("Bitte wählen Sie:\n\n");
-        printf("1: Cola\n2: Fanta\n3:Sprite\n4: Wasser\n5: Apfelschorle\n\n");
+        printf("1: Cola\n2: Fanta\n3: Sprite\n4: Wasser\n5: Apfelschorle\n\n");
         scanf("%d", &EW);
     
         if(EW==1){
-            printf("Sie haben die Cola gewählt. Guten Durst!");
+            printf("Sie haben die Cola gewählt. Guten Durst!\n");
         }
         else if(EW==2){
-            printf("Sie haben die Fanta gewählt. Guten Durst!");
+            printf("Sie haben die Fanta gewählt. Guten Durst!\n");
         }
-        else if(EW==2){
-            printf("Sie haben die Sprite gewählt. Guten Durst!");
+        else if(EW==3){
+            printf("Sie haben die Sprite gewählt. Guten Durst!\n");
         }
-        else if(EW==2){
-            printf("Sie haben die Wasser gewählt. Guten Durst!");
+        else if(EW==4){
+            printf("Sie haben die Wasser gewählt. Guten Durst!\n");
         }
-        else if(EW==2){
-            printf("Sie haben die Apfelschorle gewählt. Guten Durst!");
+        else if(EW==5){
+            printf("Sie haben die Apfelschorle gewählt. Guten Durst!\n");
+        }
+        else{
+            printf("\nFehler! Ungültige Zahl!\n");
         }
     }
     else{
