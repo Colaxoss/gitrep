@@ -7,7 +7,7 @@ int main()
     printf("\nWillkommen beim Tagesrechner!\n\n");
     
     printf("Bitte geben Sie die Anzahl der Tage an.\n");
-    scanf("%f", &AT);
+    scanf("%d", &AT);
            
     printf("\n%d", AT);
     printf("Tage haben %d Stunden", AT*24);
