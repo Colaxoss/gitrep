@@ -9,7 +9,7 @@ int main()
     printf("Bitte geben Sie die Anzahl der Tage an.\n");
     scanf("%d", &AT);
            
-    printf("\n %d", AT);
+    printf("\n%d ", AT);
     printf("Tage haben %d Stunden\n\n", AT*24);
            
     
