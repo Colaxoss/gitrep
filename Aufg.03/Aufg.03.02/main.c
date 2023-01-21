@@ -12,16 +12,16 @@ int main ()
     scanf("%d", &Z2);
     
     if(Z1<Z2){
-        printf("\nDie erste Zahl ist kleiner als die zweite Zahl.\n");
+        printf("\nDie erste Zahl ist kleiner als die zweite Zahl.\n\n");
     }
     else if(Z1>Z2){
-        printf("\nDie erste Zahl ist größer als die zweite Zahl.\n");
+        printf("\nDie erste Zahl ist größer als die zweite Zahl.\n\n");
     }
     else if(Z1==Z2){
-        printf("\nSie haben zwei gleiche Zahlen eingegeben\n");
+        printf("\nSie haben zwei gleiche Zahlen eingegeben.\n\n");
     }
     else{
-        printf("\nFehler! Ungültige Zahl!\n");
+        printf("\nFehler! Ungültige Zahl!\n\n");
     }
     
     return 0;
