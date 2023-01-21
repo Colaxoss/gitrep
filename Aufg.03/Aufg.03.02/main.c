@@ -23,4 +23,6 @@ int main ()
     else{
         printf("\nFehler! Ungültige Zahl!\n");
     }
+    
+    return 0;
 }
