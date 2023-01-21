@@ -12,6 +12,6 @@ int main ()
   scanf("%d", &wert3);
   
     if(wert1<wert2<wert3){
-        printf ("%d", wert2)
+        printf ("%d", wert2);
     }
 }
