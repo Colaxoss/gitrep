@@ -5,11 +5,11 @@ int main ()
   int wert1, wert2, wert3;
   
   printf("\nGeben Sie den ersten Wert ein.\n");
-  scanf("%d", wert1);
+  scanf("%d", &wert1);
   printf("\nGeben Sie den zweiten Wert ein.\n");
-  scanf("%d", wert2);
+  scanf("%d", &wert2);
   printf("\nGeben Sie den dritten Wert ein.\n");
-  scanf("%d", wert3);
+  scanf("%d", &wert3);
   
     if(wert1<wert2<wert3){
         printf ("%d", &wert2)
