@@ -2,12 +2,12 @@
 
 int main ()
 {
-    int Eingabe;
+    int Eingabe = 0;
     
     printf("\nWillkommen beim Notenrechner!\n\n");
     
     printf("Bitte geben Sie Ihre Notenpunktzahl ein.\n");
-    scanf("%i", Eingabe);
+    scanf("%d", Eingabe);
   
     if(Eingabe<0, Eingabe>10){
         if(Eingabe==10){
