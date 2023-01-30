@@ -9,7 +9,7 @@ int main ()
     printf("Bitte geben Sie Ihre Notenpunktzahl ein.\n");
     scanf("%d", &Eingabe);
   
-    if(Eingabe<0, Eingabe>10){
+    if(Eingabe>0, Eingabe<10){
         if(Eingabe==10){
             printf("\n 10 Notenpunkte entsprechen einer 1+.\n\n");
         }
